@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.ty-tou{
+	width: 100%;
+	height: 40px;	
+	background-color: #F1F1F1;
+}
+.ty-touup{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.ty-tou ul{
+	width: 100%;	
+}
+.ty-tou ul li{
+	float: left;
+}
+.ty-tou ul li p{
+	line-height: 40px;
+}
+.ty-tou ul li p a{
+	color: #999999;		
+}
+.ty-tou ul li a:hover{
+	color: #E30000;
+}
+.ty-top{
+	max-width:1200px;
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+}
+.ty-topl{
+	width: 65%;
+	height: 120px;
+	float: left;
+}
+.ty-topr{
+	width: 35%;	
+	line-height: 20px;
+	height: 120px;
+	float: left;
+}

@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: 0;
+}
+
+.ty-nav{
+	width: 100%;
+	height: 60px;
+	background-color: #E30000;	
+}
+.ty-nav ul{
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	height: 60px;	
+}
+.ty-nav ul li{
+	width: 10%;
+	height: 60px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 60px;
+	float: left;
+	text-align: center;
+}
+.ty-nav ul a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ty-nav ul li:hover{
+	background-color: #C80404;	
+}
+
+.ty-nav ul li:hover .ty-yc{
+	display: block;	
+}
+.ty-yc{
+	width: 120px;
+	height: 120px;
+	background-color: #000000;
+	display: none;
+	position: absolute;
+	z-index: 999;	
+}
+.ty-yc p a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+.ty-yc p{
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	background-color: #E30000;
+}
+.ty-yc p:hover{
+	background-color: #C80404;
+}
+
+
+.ty-fenl{
+	width: 100%;
+	max-width: 1200px;
+	height: 40px;
+	background-color: #E8F6FF;
+	text-indent:10px ;
+	margin: 0px auto;
+}
+.ty-fenl p span{
+	font-size: 12px;
+	line-height: 40px;
+	color: #999999;
+}
+.ty-fenl p span a{
+	font-size: 12px;
+	line-height: 40px;
+	color: #666666;
+}
+.ty-fenl p span a:hover{
+	color: #E30000;
+}
+.table th{
+	text-align: center;
+}
+.table td{
+	text-align: center;
+}
